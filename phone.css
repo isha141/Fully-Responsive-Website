@@ -1,0 +1,55 @@
+/* Navigation  */
+#navbar{ 
+
+flex-direction: column;
+
+} 
+#navbar li a{ 
+font-size: 1.3rem;
+padding: 0px 0px; 
+padding-bottom: 6px;
+
+}  
+/* Home */
+#home{
+height: 397px;
+flex-direction: column;
+padding: 3px 0px;
+}
+#home::before{
+height: 690px;
+} 
+#home p{
+font-size: 20px;
+} 
+.btn{ 
+font-size: 13px;
+padding: 4px 8px;
+}
+/* Menu-Container */ 
+#menu{
+flex-direction: column;
+} 
+#menu .box img{
+height: 100px;
+width:105px; 
+} 
+/* clent section  */
+#clients{
+flex-wrap: wrap;
+}
+#client-items img{
+width: 100px;
+padding: 0px;
+}
+/* Conatct */
+#contact {
+
+
+}
+ 
+
+ /* Utility classes */
+.h-primary{
+ font-size: 30px;
+ } 
